@@ -1,3 +1,8 @@
+/*
+ Grace Cochran
+ COS 225: Homework 4
+ */
+
 public class Book {
     public String bookTitle;
     public String bookGenre;

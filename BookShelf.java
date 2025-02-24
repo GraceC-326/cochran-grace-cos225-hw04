@@ -34,4 +34,30 @@ public class BookShelf {
         return;
     }
 
+    public void removeBook(){
+        // wait how do i remove a book if the method's void and doesnt have
+        // an input. Um.
+        // WE'RE NOT EVEN USING REMOVE BOOK IN THE TESTER???
+    }
+
+
+    // Prints each Book title in the shelf on a single line, separated by 
+    // three spaces. If there aren't ant books in the shelf, it prints 
+    // “Empty” instead.
+    @Override
+    public String toString(){
+        String finalStr = "";
+        for (int i=0; i < booksList.size(); i++){
+            if (booksList.get(i) != null){
+                Book bookGrabbed = booksList.get(i);
+                String titleTxt = bookGrabbed.bookTitle;
+                finalStr += titleTxt + "   ";
+            }
+        } 
+        if("".equals(finalStr)){
+        return "Empty\n";
+        }
+        return finalStr + "\n"; 
+    }
+
 }

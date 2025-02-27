@@ -14,8 +14,6 @@ public class BookShelf {
         for (int i=0; i < 8; i++){
             booksList.add(null);
         }
-    // Note: ask what dufour means by adding getters and setters here
-    // im p sure this works
     }
 
     // Adds a book to a shelf if the book's title matches with the

@@ -34,10 +34,8 @@ public class BookShelf {
         return;
     }
 
-    public void removeBook(){
-        // wait how do i remove a book if the method's void and doesnt have
-        // an input. Um.
-        // WE'RE NOT EVEN USING REMOVE BOOK IN THE TESTER???
+    public void removeBook(int indexNum){
+        booksList.set(indexNum, null);
     }
 
 
